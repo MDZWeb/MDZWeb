@@ -1,0 +1,61 @@
+
+{% extends 'base.html' %}
+{% block content %}
+
+    <!-- -----------------------Order Table----------------------- -->
+
+    <section class="order_table_section">
+        <div class="order_table_container container">
+            <div class="order_table_scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email ID</th>
+                            <th>Contact No</th>
+                            <th>Service Type</th>
+                            <th>Order Date</th>
+                            <th>Order Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>{{order_d.First_name}}</td>
+                            <td>{{order_d.Last_name}}</td>
+                            <td>{{order_d.Email_id}}</td>
+                            <td>{{order_d.Contact_no}}</td>
+                            <td>{{order_d.Service_type}}</td>
+                            <td>{{order_d.Order_date}}</td>
+                            <td>{{order_d.Status}}</td>
+                        </tr>             
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="order_table_container container">
+            <div class="order_table_scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order Details</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>{{order_d.order_detail}}</td>
+                        </tr>             
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <a href="{% url 'Delete Order' order_d.id %}" class="btn delete_btn container">Delete</a>
+
+    
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}

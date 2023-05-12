@@ -1,0 +1,60 @@
+
+
+{% extends 'base.html' %}
+{% block content %}
+   <!-- -----------------------Search Order----------------------- -->
+
+    <section class="search_order_section">
+        <form action="{% url 'Order Details' %}" class="search_container container" method='POST'>
+            {% csrf_token %}
+            <select name="search_type" id="">
+                <option value="Email Id">Email Id</option>
+                <option value="Contact No">Contact No</option>
+            </select>
+            <input type="text" name="search_v">
+            <button class="btn">Order Details</button>
+        </form>
+    </section>
+
+    <!-- -----------------------Order Table----------------------- -->
+
+    <section class="order_details_table_section">
+        <div class="order_table_container container">
+            <div class="order_table_scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email ID</th>
+                            <th>Contact No</th>
+                            <th>Service Type</th>
+                            <th>Order Date</th>
+                            <th>Order Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {% for i_orders_data in orders_data %}
+                            <tr>
+                                <td><a href="{% url 'Order' i_orders_data.id %}">{{i_orders_data.First_name}}</a></td>
+                                <td><a href="{% url 'Order' i_orders_data.id %}">{{i_orders_data.Last_name}}</a></td>
+                                <td><a href="{% url 'Order' i_orders_data.id %}">{{i_orders_data.Email_id}}</a></td>
+                                <td><a href="{% url 'Order' i_orders_data.id %}">{{i_orders_data.Contact_no}}</a></td>
+                                <td><a href="{% url 'Order' i_orders_data.id %}">{{i_orders_data.Service_type}}</a></td>
+                                <td><a href="{% url 'Order' i_orders_data.id %}">{{i_orders_data.Order_date}}</a></td>
+                                <td><a href="{% url 'Order' i_orders_data.id %}">{{i_orders_data.Status}}</a></td>
+                            </tr>
+                        {% endfor %}
+
+
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}

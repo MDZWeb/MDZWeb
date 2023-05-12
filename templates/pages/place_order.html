@@ -1,0 +1,81 @@
+
+{% extends 'base.html' %}
+{% block content %}
+    <!-- -----------------------Place Order Section----------------------- -->
+
+    <section class="place_order_section">
+        <div class="place_order_sec">
+            {% if Error_Flag == 1  %}
+                <div class="error container">
+                    <p>All fields are required</p>
+                </div>
+            {% endif %}
+            
+            
+            {% if Submit_Flag == 1  %}
+                <div class="success container">
+                    <p>Your order has been placed successfully. Our team will contact you soon</p>
+                </div>
+            {% endif %}
+            <div class="place_order_container container">
+                <div class="left">
+                    <h4>Place Your Order</h4>
+                    <div class="left_img">
+                        <img src="/static/img/place order img.png" alt="">
+                    </div>
+                    <ul class="contact_details">
+                        <li><i class="uil uil-phone"></i><p>+92 3326687262</p></li>
+                        <li><i class="uil uil-envelope"></i><p>mdzweb@gmail.com</p></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <form action="{% url 'Place Order' %}" method="POST">
+                        {% csrf_token %}
+                        <div class="details">
+                            <label for="f_name">First Name</label>
+                            <input type="text" name="first_name_v" id="f_name">
+                        </div>
+
+                        <div class="details">
+                            <label for="l_name">Last Name</label>
+                            <input type="text" name="last_name_v" id="l_name">
+                        </div>
+                        <div class="details">
+                            <label for="email_id">Email</label>
+                            <input type="email" name="email_v" id="email_id">
+                        </div>
+
+                        <div class="details">
+                            <label for="contact_id">Contact No</label>
+                            <input type="text" name="contact_v" id="contact_id">
+                        </div>
+
+                        <div class="details sel_service_detail">
+                            <label for="service_id">Service Type</label>
+                            <select name="service_v" id="service_id">
+                                <option value="select_ser" selected="true" disabled="disabled">Select The Service Type</option>
+                                <option value="Website">Website</option>
+                                <option value="Graphic Design">Graphic Design</option>
+                            </select>
+                        </div>
+                        
+                        <div class="details message_section">
+                            <label for="order_id">Order Details</label>
+                            <textarea name="order_details_v" id="order_id" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button type="submit"> Place Order</button>
+
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}

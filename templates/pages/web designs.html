@@ -1,0 +1,52 @@
+
+{% extends 'base.html' %}
+{% block content %}
+    <!-- -----------------------Web Designs Section----------------------- -->
+
+
+    <section class="web_designs_sec" id="services">
+        <h2>Web <span>Designs</span></h2>
+        <div class="web_designs_container container">
+
+            {% for i_web_designs in web_designs %}
+                <a href="{{i_web_designs.Url}}" class="web_design" target="_blank">
+                    <img src="{{i_web_designs.Image.url}}" alt="Web Designs">
+                </a>
+            {% endfor %}
+        </div>
+    </section>
+
+
+    <!-- Section Pagination -->
+
+    <section class="pagination_section">
+        <div class="pagination_container container">
+            {% if web_designs.has_previous %}
+                <a href="{% url 'Web Designs' %}?page={{web_designs.previous_page_number}}"><i class="uil uil-angle-left left"></i></span></a>
+            {% else %}
+                <a><i class="uil uil-angle-left left"></i></span></a>
+            {% endif %}
+            {% for i_pages_list in pages_list %}
+                {% if i_pages_list == 'ellipsis'  %}
+                <span><i class="uil uil-ellipsis-h ellipsis"></i></span>
+                {% else %}
+                    <a href="{% url 'Web Designs' %}?page={{i_pages_list}}"
+                    {% if i_pages_list|floatformat:"0" == page|floatformat:"0" %} 
+                        class="page active"
+                    {% else %}
+                        class="page"
+                    {% endif %}>
+                        {{i_pages_list}}</a>
+                {% endif %}
+            {% endfor %}    
+            {% if web_designs.has_next %}            
+                <a href="{% url 'Web Designs' %}?page={{web_designs.next_page_number}}"><i class="uil uil-angle-right right"></i></span></a>
+            {% else %}
+                <a><i class="uil uil-angle-right right"></i></span></a>
+            {% endif %}
+        </div>
+
+    </section>
+
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}
