@@ -1,0 +1,44 @@
+{% load static %}
+    <footer>
+        <div class="footer_container container">
+            <div class="col-1">
+                <div class="logo"><a href=""><img src="{% static './img/logo.png' %}" alt="MDZ Web"></a></div>
+                <p class="para">MDZ Web Studio's team of experienced web developers work closely with clients to understand their business goals and  objectives. </p>
+            </div>
+
+            <div class="col-2 col">
+                <h5>Menu</h5>
+                <ul class="menu_items">
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'home' %}#services">Services</a></li>
+                    <li><a href="{% url "webdesigns" %}">Portfolio</a></li>
+                    <li><a href="{% url 'home' %}#about">About</a></li>
+                    <li><a href="{% url "placeorder" %}">Place Order</a></li>
+                </ul>
+            </div>
+
+            <div class="col-3 col">
+                <h5>Services</h5>
+                <ul class="menu_items">
+                    <li><a href="{% url 'home' %}#services">Web Designs</a></li>
+                    <li><a href="{% url 'home' %}#services">Web Development</a></li>
+                    <li><a href="{% url 'home' %}#services">Web Deployment</a></li>
+                    <li><a href="{% url 'home' %}#graphic_designs">Social Media Designs</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-4 col">
+                <h5>Contact Us</h5>
+                <ul class="menu_items">
+                    <li><i class="uil uil-phone"></i><a href="https://api.whatsapp.com/send?phone=03326687262&text=Welcome to MDZWeb" target="_blank">+92 3326687262</a></li>
+                    <li><i class="uil uil-envelope"></i><a href="mailto:mdzweb@gmail.com">mdzweb@gmail.com</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>

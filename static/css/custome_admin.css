@@ -1,0 +1,9 @@
+.main-sidebar .brand-link{
+    background-color: white;
+    box-shadow: 0px 0px;
+    display: none;
+}
+.navbar-white {
+    background-color: #fbfaff;
+    color: #1f2d3d;
+}

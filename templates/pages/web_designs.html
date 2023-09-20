@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- -----------------------Web Designs Section----------------------- -->
+
+
+    <section class="web_designs_sec" id="services">
+        <h2>Web <span>Designs</span></h2>
+        <div class="web_designs_container container">
+
+            {% for webdesign in webdesigns %}
+                <a href="{{webdesign.url}}" class="web_design" target="_blank">
+                    <img src="{{webdesign.image.url}}" alt="{{webdesign.website_name}}">
+                    <span class="web_link"><span class="web_link_text">Visit Website</span></span>
+                </a>
+            {% endfor %}
+
+
+
+        </div>
+    </section>
+
+
+    <!-- Section Pagination -->
+
+    {% if webdesigns.has_other_pages %}
+        <section class="pagination_section">
+            <div class="pagination_container container">
+                {% if webdesigns.has_previous %}
+                    <a href="?page={{webdesigns.previous_page_number}}"><i class="uil uil-angle-left left"></i></a>
+                {% else %}
+                    <a><i class="uil uil-angle-left left"></i></a>
+                {% endif %}
+                
+                {% for page_no in page_no_list %}
+                    {% if page_no == 'ellispe' %}
+                        <span><i class="uil uil-ellipsis-h"></i></span>
+                    {% else %}
+                        <a 
+                        {% if page_no == page %}
+                            class="page active"
+                        {% else %}
+                            class="page"
+                        {% endif %}
+                        href="?page={{page_no}}">{{page_no}}</a>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if webdesigns.has_next %}
+                    <a href="?page={{webdesigns.next_page_number}}"><i class="uil uil-angle-right right"></i></a>
+                {% else %}
+                    <a><i class="uil uil-angle-right right"></i></a>
+                {% endif %}
+            </div>
+
+        </section>
+    {% endif %}
+
+
+   <!-- -----------------------WhatsApp Section----------------------- -->
+
+    {% include 'includes/whatsapp_contact.html' %}
+
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}

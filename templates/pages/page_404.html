@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDZ Web</title>
+
+    <link rel="stylesheet" href="{% static "./css/page_404.css" %}">
+</head>
+<body>
+    <section class="page_404_section">
+       <div class="page_404_container container">
+        <div class="page_404">
+            <h3>Oops! Page not found</h3>
+            <div class="img_404_container"><h1>404</h1><div class="img_404"><img src="{% static "./img/img404.png" %}" alt=""></div> </div>
+            <h3 class="text-2">We are sorry, but the page you requested was not found</h3>
+            <a href="{% url "home" %}" class="btn">Home Page</a>
+        </div>
+       </div>
+    </section>
+</body>
+</html>

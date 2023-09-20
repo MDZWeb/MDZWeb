@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Website,Web Development, Web Designs,Web Development,Web,Graphic Designs,Front End,BackEnd">
+    <meta name="description" content="MDZ Web Studio offers high-quality web design and development services that help your business succeed online. We definitely know how end-users interact with apps and how to create an easy-to-use user interface that offers an enjoyable experience for your target audience.">
+    <meta name="robots" content="index,follow">
+    <title>MDZ Web</title>
+    <!-- Css File -->
+    <link rel="stylesheet" href="{% static './css/index.css' %}">
+    <link rel="stylesheet" href="{% static './css/graphic_designs.css' %}">
+    <link rel="stylesheet" href="{% static './css/web_designs.css' %}">
+    <link rel="stylesheet" href="{% static './css/place_order.css' %}">
+    <link rel="stylesheet" href="{% static "./css/order_details.css" %}">
+    <link rel="stylesheet" href="{% static "./css/order.css" %}">
+    <!-- Javascript File -->
+    <script src="{% static './main.js' %}" defer></script>
+    <!-- Icon Scout CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+
+    <!-- -----------------------Nav Section----------------------- -->
+    
+    <nav>
+        <div class="nav_container container">
+            <div class="logo"><a href="{% url 'home' %}"><img src="{% static './img/logo.png' %}" alt="MDZ Web"></a></div>
+            <ul class="menu_items">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'home' %}#services">Services</a></li>
+                <li class="portfolio">
+                    <a>Portfolio</a>
+                    <ul class="drop_down">
+                        <li><a href="{% url 'webdesigns' %}">Web Designs</a></li>
+                        <li><a href="{% url 'graphicdesigns' %}">Graphic Designs</a></li>
+                    </ul>
+                </li>
+                <li class="portfolio_cat"><a href="{% url 'webdesigns' %}">Web Designs</a></li>
+                <li class="portfolio_cat"><a href="{% url 'graphicdesigns' %}">Graphic Designs</a></li>
+                <li><a href="{% url 'home' %}#about">About</a></li>
+                <li><a href="{% url "placeorder" %}">Place Order</a></li>
+                
+            </ul>
+            <a href="{% url "placeorder" %}" class="btn nav_btn">Place Order</a>
+            <button class="hamburger"><i class="uil uil-bars"></i></button>
+            <button class="close"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>

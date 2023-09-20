@@ -1,0 +1,68 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+   <!-- -----------------------Search Order----------------------- -->
+
+    <section class="search_order_section">
+        <form action="" class="search_container container" method="POST" action="{% url "order_details" %}">
+            {% csrf_token %}
+            <select name="search_type" id="">
+                <option value="EmailId">Email Id</option>
+                <option value="OrderId">Order Id</option>
+                <option value="ContactNo">Contact No</option>
+            </select>
+            <input type="text" name="search_v" Required>
+            <button class="btn">Track Order</button>
+        </form>
+    </section>
+
+    <!-- -----------------------Order Table----------------------- -->
+
+    <section class="order_table_section">
+        {% for message in messages %}
+            <div class="{{message.tags}} container">
+                <p>{{message}}</p>
+            </div>
+        {% endfor %}
+        <div class="order_table_container container">
+            <div class="order_table_scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Name</th>
+                            <th>Email ID</th>
+                            <th>Contact No</th>
+                            <th>Service Type</th>
+                            <th>Order Date</th>
+                            <th>Order Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {% for order in orders %}
+                            <tr>
+                                <td><a href="{% url "details" order.order_id %}" style="color:#673ee6;">{{order.order_id}}</a></td>
+                                <td><a>{{order.user_name}}</a></td>
+                                <td><a>{{order.email}}</a></td>
+                                <td><a>{{order.contact}}</a></td>
+                                <td><a>{{order.service}}</a></td>
+                                <td><a>{{order.order_date}}</a></td>
+                                <td><a>{{order.order_status}}</a></td>
+                            </tr>
+                        {% endfor %}
+
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------WhatsApp Section----------------------- -->
+
+    {% include 'includes/whatsapp_contact.html' %}
+
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}

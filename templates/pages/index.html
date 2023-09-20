@@ -1,0 +1,118 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- -----------------------Header Section----------------------- -->
+
+    <header>
+        <div class="header_container container">
+            <div class="left">
+                <h4>Let's Build Your</h4>
+                <h1>Dream <span>Website</span></h1>
+                <p class="detail">MDZ Web Studio offers high-quality web design and development services that help your business succeed online.</p>
+                <div class="order">
+                    <a href="{% url "placeorder" %}" class="btn btn_icon">Place Order<i class="uil uil-angle-right-b"></i></a>
+                    <a href="{% url "order_details" %}" class="btn">Track Order</a>
+                </div>
+            </div> 
+            
+            <div class="right">
+                <div class="right_img"><img src="{% static './img/header_image.png' %}" alt="Web development Image"></div>
+            </div>
+        </div> 
+    </header>
+
+    <!-- -----------------------Services Section----------------------- -->
+
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="service_container container">
+            <div class="service">
+                <div class="left">
+                    <h4 id="Web_Design">Web Design</h4>
+                    <p class="para">Want to build your product with a team that establishes a clear design process,meets deadlines, and delivers a spot-on end result? Turn to MDZ Web design services.<br>We definitely know how end-users interact with apps and how to create an easy-to-use user interface that offers an enjoyable experience for your target audience.</p>
+                </div>
+                <div class="right">
+                    <div class="right_img"><img src="{% static './img/web design.png' %}" alt="WEB DESIGN"></div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="left">
+                    <h4 id="Web_Development">Web Development</h4>
+                    <p class="para">MDZ Web offer both front-end and back-end development service. Front-end development involves creating the user-facing portion of a website, such as the layout, design, and user interface. This often involves the use of languages such as HTML, CSS, and JavaScript.<br>Back-end development involves databases, server-side scripting, and other functionality.</p>
+                </div>
+                <div class="right">
+                    <div class="right_img"><img src="{% static './img/web development.png' %}" alt="web development"></div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="left">
+                    <h4 class="Web_Deployment">Web Deployment</h4>
+                    <p class="para">Deployment is moving a website from a local environment to live servers. What seems like a simple thing can actually be quite complex.<br>After development, we can make your website online. We do deployment in AWS, DigitalOcean, Netlify, Heroku and VPS Server.</p>
+                </div>
+                <div class="right">
+                    <div class="right_img"><img src="{% static './img/web server.png' %}" alt="web server"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    {% if webdesigns|length > 0 %}
+        <section class="latest_design_section">
+            <h2>Latest Websites</h2>
+            <div class="latest_design_container container">
+                {% for webdesign in webdesigns %}
+                <div class="design_img"><img src="{{webdesign.image.url}}" alt="WEB DESIGNS"><span><a href="{{webdesign.url}}"  class="web_link" target="_blank">Visit Website</a></span></div>
+                {% endfor %}
+            </div>
+        </section>
+    {% endif %}
+
+    <!-- -----------------------Latest Designs----------------------- -->
+
+    {% if graphicdesigns|length > 0 %}
+        <section class="latest_design_section graphic_designs" id="graphic_designs">
+            <h2>Latest Designs</h2>
+            <div class="latest_design_container container">
+
+                {% for graphicdesign in graphicdesigns %}   
+                    <div class="design_img"><img src="{{graphicdesign.image.url}}" alt="{{graphicdesign.design_name}}"><span><i class="uil uil-expand-alt"></i></span></div>
+                {% endfor %}
+
+            </div>
+        </section>
+    {% endif %}
+
+    <!-- ----------------------- Image Pop Up Section----------------------- -->
+
+    <section class="pop_up_section">
+        <div class="pop_up_container">
+            <img src="{% static './img/Social Media designs/img-1.png' %}" alt="">
+        </div>
+        <button class="pop_up_close"><i class="uil uil-multiply"></i></button>
+    </section>
+
+    <!-- -----------------------About US----------------------- -->
+
+    <section class="about_us_section" id="about">
+        <h2>About Us</h2>
+        <div class="about_us_container container">
+            <div class="left">
+                <p>MDZ Web Studio is a leading web development agency that specializes in creating custom websites for businesses of all sizes. We offer a range of services to meet the specific needs and goals of each client.<br>In addition to website development, MDZ Web Studio also provides ongoing website maintenance and support to ensure that Our client's websites continue to perform well over time. We monitor website performance, fix bugs, and provide regular updates to ensure that the website is running smoothly and efficiently.</p>
+            </div>
+            <div class="right">
+                <div class="right_img"><img src="{% static './img/about_img.png' %}" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------WhatsApp Section----------------------- -->
+
+    {% include 'includes/whatsapp_contact.html' %}
+
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}

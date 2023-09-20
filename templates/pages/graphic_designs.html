@@ -1,0 +1,71 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- -----------------------Graphic Designs Section----------------------- -->
+
+
+    <section class="graphic_designs_sec graphic_designs">
+        <h2>Graphic <span>Designs</span></h2>
+        <div class="graphic_designs_container container">
+            
+            {% for graphicdesign in graphicdesigns %}
+                <div class="design_img">
+                    <img src="{{graphicdesign.image.url}}" alt="{{graphicdesign.design_name}}"><span><i class="uil uil-expand-alt"></i></span>
+                </div>
+            {% endfor %}
+
+
+        </div>
+    </section>
+
+    <!-- ----------------------- Image Pop Up Section----------------------- -->
+
+    <section class="pop_up_section">
+        <div class="pop_up_container">
+            <img src="{% static './img/Social Media designs/img-1.png' %}" alt="">
+        </div>
+        <button class="pop_up_close"><i class="uil uil-multiply"></i></button>
+    </section>
+
+
+    <!-- -------------------------Section Pagination------------------------- -->
+    {% if graphicdesigns.has_other_pages %}
+        <section class="pagination_section">
+            <div class="pagination_container container">
+                {% if graphicdesigns.has_previous %}
+                    <a href="?page={{graphicdesigns.previous_page_number}}"><i class="uil uil-angle-left left"></i></a>
+                {% else %}
+                    <a><i class="uil uil-angle-left left"></i></a>
+                {% endif %}
+                
+                {% for page_no in page_no_list %}
+                    {% if page_no == 'ellispe' %}
+                        <span><i class="uil uil-ellipsis-h"></i></span>
+                    {% else %}
+                        <a 
+                        {% if page_no == page %}
+                            class="page active"
+                        {% else %}
+                            class="page"
+                        {% endif %}
+                        href="?page={{page_no}}">{{page_no}}</a>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if graphicdesigns.has_next %}
+                    <a href="?page={{graphicdesigns.next_page_number}}"><i class="uil uil-angle-right right"></i></a>
+                {% else %}
+                    <a><i class="uil uil-angle-right right"></i></a>
+                {% endif %}
+            </div>
+
+        </section>
+    {% endif %}
+
+    <!-- -----------------------WhatsApp Section----------------------- -->
+
+    {% include 'includes/whatsapp_contact.html' %}
+
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}

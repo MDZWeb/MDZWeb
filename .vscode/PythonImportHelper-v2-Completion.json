@@ -1,0 +1,1397 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Graphic_Designs",
+        "importPath": "graphicdesigns.models",
+        "description": "graphicdesigns.models",
+        "isExtraImport": true,
+        "detail": "graphicdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "Graphic_Designs",
+        "importPath": "graphicdesigns.models",
+        "description": "graphicdesigns.models",
+        "isExtraImport": true,
+        "detail": "graphicdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "Graphic_Designs",
+        "importPath": "graphicdesigns.models",
+        "description": "graphicdesigns.models",
+        "isExtraImport": true,
+        "detail": "graphicdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "graphicdesigns",
+        "description": "graphicdesigns",
+        "isExtraImport": true,
+        "detail": "graphicdesigns",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "MDZWeb.email_setting",
+        "description": "MDZWeb.email_setting",
+        "isExtraImport": true,
+        "detail": "MDZWeb.email_setting",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "MDZWeb",
+        "description": "MDZWeb",
+        "isExtraImport": true,
+        "detail": "MDZWeb",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "MDZWeb",
+        "description": "MDZWeb",
+        "isExtraImport": true,
+        "detail": "MDZWeb",
+        "documentation": {}
+    },
+    {
+        "label": "Webdesigns",
+        "importPath": "webdesigns.models",
+        "description": "webdesigns.models",
+        "isExtraImport": true,
+        "detail": "webdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "Webdesigns",
+        "importPath": "webdesigns.models",
+        "description": "webdesigns.models",
+        "isExtraImport": true,
+        "detail": "webdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "Webdesigns",
+        "importPath": "webdesigns.models",
+        "description": "webdesigns.models",
+        "isExtraImport": true,
+        "detail": "webdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "order.models",
+        "description": "order.models",
+        "isExtraImport": true,
+        "detail": "order.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "order.models",
+        "description": "order.models",
+        "isExtraImport": true,
+        "detail": "order.models",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "order",
+        "description": "order",
+        "isExtraImport": true,
+        "detail": "order",
+        "documentation": {}
+    },
+    {
+        "label": "order_details_id",
+        "importPath": "order.views",
+        "description": "order.views",
+        "isExtraImport": true,
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "webdesigns",
+        "description": "webdesigns",
+        "isExtraImport": true,
+        "detail": "webdesigns",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "env.Scripts.jp",
+        "description": "env.Scripts.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "env.Scripts.jp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "graphicdesigns.migrations.0001_initial",
+        "description": "graphicdesigns.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='GraphicDesign',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('design_name', models.CharField(max_length=300)),",
+        "detail": "graphicdesigns.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "graphicdesigns.migrations.0002_rename_graphicdesign_graphic_designs",
+        "description": "graphicdesigns.migrations.0002_rename_graphicdesign_graphic_designs",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('graphicdesigns', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='GraphicDesign',\n            new_name='Graphic_Designs',\n        ),\n    ]",
+        "detail": "graphicdesigns.migrations.0002_rename_graphicdesign_graphic_designs",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "graphicdesigns.migrations.0003_alter_graphic_designs_design_type",
+        "description": "graphicdesigns.migrations.0003_alter_graphic_designs_design_type",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('graphicdesigns', '0002_rename_graphicdesign_graphic_designs'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='graphic_designs',\n            name='design_type',\n            field=models.CharField(choices=[('Social Media Design', 'Social Media Design'), ('Face Book Covers', 'Face Book Covers'), ('Flyer Design', 'Flyer Design'), ('Business Card Design', 'Business Card Design')], default='Social Media Design', max_length=300),\n        ),",
+        "detail": "graphicdesigns.migrations.0003_alter_graphic_designs_design_type",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "graphicdesigns.migrations.0004_graphic_designs_is_active",
+        "description": "graphicdesigns.migrations.0004_graphic_designs_is_active",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('graphicdesigns', '0003_alter_graphic_designs_design_type'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='graphic_designs',\n            name='is_active',\n            field=models.BooleanField(default=True),\n        ),",
+        "detail": "graphicdesigns.migrations.0004_graphic_designs_is_active",
+        "documentation": {}
+    },
+    {
+        "label": "GraphicDesignAdmin",
+        "kind": 6,
+        "importPath": "graphicdesigns.admin",
+        "description": "graphicdesigns.admin",
+        "peekOfCode": "class GraphicDesignAdmin(admin.ModelAdmin):\n    def Image(self,model):\n        return format_html('<img src=\"{}\" width=120 height=120>'.format(model.image.url))\n    list_display=(\"design_name\",\"design_type\",\"is_feature\",\"is_active\",\"added_date\",\"updated_date\",\"Image\")\n    list_editable=(\"is_feature\",\"is_active\")\n    list_per_page=10\nadmin.site.register(Graphic_Designs,GraphicDesignAdmin)",
+        "detail": "graphicdesigns.admin",
+        "documentation": {}
+    },
+    {
+        "label": "GraphicdesignsConfig",
+        "kind": 6,
+        "importPath": "graphicdesigns.apps",
+        "description": "graphicdesigns.apps",
+        "peekOfCode": "class GraphicdesignsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'graphicdesigns'",
+        "detail": "graphicdesigns.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Graphic_Designs",
+        "kind": 6,
+        "importPath": "graphicdesigns.models",
+        "description": "graphicdesigns.models",
+        "peekOfCode": "class Graphic_Designs(models.Model):\n    design_type=((\"Social Media Design\",\"Social Media Design\"),\n                (\"Face Book Covers\",\"Face Book Covers\"),\n                (\"Flyer Design\",\"Flyer Design\"),\n                (\"Business Card Design\",\"Business Card Design\"),)\n    design_name=models.CharField(max_length=300)\n    design_type=models.CharField(choices=design_type,max_length=300,default=\"Social Media Design\")\n    is_feature=models.BooleanField(default=True)\n    is_active=models.BooleanField(default=True)\n    added_date=models.DateTimeField(auto_now_add=True)",
+        "detail": "graphicdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "graphicdesigns.urls",
+        "description": "graphicdesigns.urls",
+        "peekOfCode": "urlpatterns = [\n    path('',views.graphicdesigns,name='graphicdesigns'),\n]",
+        "detail": "graphicdesigns.urls",
+        "documentation": {}
+    },
+    {
+        "label": "graphicdesigns",
+        "kind": 2,
+        "importPath": "graphicdesigns.views",
+        "description": "graphicdesigns.views",
+        "peekOfCode": "def graphicdesigns(request):\n    graphicdesigns_obj=Graphic_Designs.objects.filter(is_active=True)\n    #print(graphicdesigns_obj)\n    paginator=Paginator(graphicdesigns_obj,9)\n    page=request.GET.get('page')\n    graphicdesigns_obj_final=paginator.get_page(page)\n    if page==None:\n        page=1\n    if page==None:\n        page=1",
+        "detail": "graphicdesigns.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "MDZWeb.asgi",
+        "description": "MDZWeb.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "MDZWeb.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "MDZWeb.email_setting",
+        "description": "MDZWeb.email_setting",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'mdzwebautomail@gmail.com'\nEMAIL_HOST_PASSWORD = 'qzwimueuoxamiocj'",
+        "detail": "MDZWeb.email_setting",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "MDZWeb.email_setting",
+        "description": "MDZWeb.email_setting",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'mdzwebautomail@gmail.com'\nEMAIL_HOST_PASSWORD = 'qzwimueuoxamiocj'",
+        "detail": "MDZWeb.email_setting",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "MDZWeb.email_setting",
+        "description": "MDZWeb.email_setting",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = 'mdzwebautomail@gmail.com'\nEMAIL_HOST_PASSWORD = 'qzwimueuoxamiocj'",
+        "detail": "MDZWeb.email_setting",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "MDZWeb.email_setting",
+        "description": "MDZWeb.email_setting",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_HOST_USER = 'mdzwebautomail@gmail.com'\nEMAIL_HOST_PASSWORD = 'qzwimueuoxamiocj'",
+        "detail": "MDZWeb.email_setting",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "MDZWeb.email_setting",
+        "description": "MDZWeb.email_setting",
+        "peekOfCode": "EMAIL_HOST_USER = 'mdzwebautomail@gmail.com'\nEMAIL_HOST_PASSWORD = 'qzwimueuoxamiocj'",
+        "detail": "MDZWeb.email_setting",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "MDZWeb.email_setting",
+        "description": "MDZWeb.email_setting",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'qzwimueuoxamiocj'",
+        "detail": "MDZWeb.email_setting",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-lk3j#)8$n(0s)y1z+u&^o3$fn&rblp*930pjn0z+=k*%$9k#56'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nEMAIL_BACKEND=EMAIL_BACKEND\nEMAIL_HOST=EMAIL_HOST",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-lk3j#)8$n(0s)y1z+u&^o3$fn&rblp*930pjn0z+=k*%$9k#56'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nEMAIL_BACKEND=EMAIL_BACKEND\nEMAIL_HOST=EMAIL_HOST\nEMAIL_USE_TLS=EMAIL_USE_TLS\nEMAIL_PORT=EMAIL_PORT\nEMAIL_HOST_USER=EMAIL_HOST_USER\nEMAIL_HOST_PASSWORD=EMAIL_HOST_PASSWORD",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\nEMAIL_BACKEND=EMAIL_BACKEND\nEMAIL_HOST=EMAIL_HOST\nEMAIL_USE_TLS=EMAIL_USE_TLS\nEMAIL_PORT=EMAIL_PORT\nEMAIL_HOST_USER=EMAIL_HOST_USER\nEMAIL_HOST_PASSWORD=EMAIL_HOST_PASSWORD\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nEMAIL_BACKEND=EMAIL_BACKEND\nEMAIL_HOST=EMAIL_HOST\nEMAIL_USE_TLS=EMAIL_USE_TLS\nEMAIL_PORT=EMAIL_PORT\nEMAIL_HOST_USER=EMAIL_HOST_USER\nEMAIL_HOST_PASSWORD=EMAIL_HOST_PASSWORD\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.staticfiles',\n    'users',",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "ROOT_URLCONF = 'MDZWeb.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR,'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR,'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'MDZWeb.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'MDZWeb_DB',\n        'HOST': 'localhost',\n        'USER': 'postgres',\n        'PORT': '5432',",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'MDZWeb_DB',\n        'HOST': 'localhost',\n        'USER': 'postgres',\n        'PORT': '5432',\n        'PASSWORD': '08199322da',\n    }\n}",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT=BASE_DIR / 'static'\nSTATICFILES_DIRS=[\n    'MDZWeb/static',",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT=BASE_DIR / 'static'\nSTATICFILES_DIRS=[\n    'MDZWeb/static',\n]",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT=BASE_DIR / 'static'\nSTATICFILES_DIRS=[\n    'MDZWeb/static',\n]\nMEDIA_URL='/media/'",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "USE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT=BASE_DIR / 'static'\nSTATICFILES_DIRS=[\n    'MDZWeb/static',\n]\nMEDIA_URL='/media/'\nMEDIA_ROOT=BASE_DIR / 'media'",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT=BASE_DIR / 'static'\nSTATICFILES_DIRS=[\n    'MDZWeb/static',\n]\nMEDIA_URL='/media/'\nMEDIA_ROOT=BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nJAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"MDZWeb\",\n    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_header\": \"MDZWeb\",\n    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_brand\": \"MDZWeb\",\n    # Logo to use for your site, must be present in static files, used for brand on top left\n    \"site_logo\": \"/img/logo.png\",",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JAZZMIN_SETTINGS",
+        "kind": 5,
+        "importPath": "MDZWeb.settings",
+        "description": "MDZWeb.settings",
+        "peekOfCode": "JAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"MDZWeb\",\n    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_header\": \"MDZWeb\",\n    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_brand\": \"MDZWeb\",\n    # Logo to use for your site, must be present in static files, used for brand on top left\n    \"site_logo\": \"/img/logo.png\",\n    # Logo to use for your site, must be present in static files, used for login form logo (defaults to site_logo)",
+        "detail": "MDZWeb.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "MDZWeb.urls",
+        "description": "MDZWeb.urls",
+        "peekOfCode": "urlpatterns = [\n    path('mdzwebadmin', admin.site.urls),\n    path('',views.home,name='home'),\n    path('graphic designs/',include('graphicdesigns.urls')),\n    path('web designs/',include('webdesigns.urls')),\n    path('order/',include('order.urls')),\n]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)\nhandler404='MDZWeb.views.page404'",
+        "detail": "MDZWeb.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "MDZWeb.views",
+        "description": "MDZWeb.views",
+        "peekOfCode": "def home(request):\n    graphicdesigns_obj=Graphic_Designs.objects.filter(is_active=True,is_feature=True).order_by('-id')[0:6]\n    webdesigns_obj=Webdesigns.objects.filter(is_active=True,is_feature=True).order_by('-id')[0:3]\n    data={\n        \"graphicdesigns\":graphicdesigns_obj,\n        \"webdesigns\":webdesigns_obj,\n    }\n    return render(request,'pages/index.html',data)\ndef page404(request,exception):\n    return render(request,'pages/page_404.html',{})",
+        "detail": "MDZWeb.views",
+        "documentation": {}
+    },
+    {
+        "label": "page404",
+        "kind": 2,
+        "importPath": "MDZWeb.views",
+        "description": "MDZWeb.views",
+        "peekOfCode": "def page404(request,exception):\n    return render(request,'pages/page_404.html',{})",
+        "detail": "MDZWeb.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "MDZWeb.wsgi",
+        "description": "MDZWeb.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "MDZWeb.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "order.migrations.0001_initial",
+        "description": "order.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Order',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('first_name', models.CharField(max_length=300)),",
+        "detail": "order.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "order.migrations.0002_order_order_id",
+        "description": "order.migrations.0002_order_order_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('order', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='order',\n            name='order_id',\n            field=models.CharField(blank=True, max_length=300),\n        ),",
+        "detail": "order.migrations.0002_order_order_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "order.migrations.0003_alter_order_order_status",
+        "description": "order.migrations.0003_alter_order_order_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('order', '0002_order_order_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='order',\n            name='order_status',\n            field=models.CharField(choices=[('Active', 'Active'), ('Delivered', 'Delivered'), ('In Revision', 'In Revision'), ('Cancelled', 'Cancelled'), ('Completed', 'Completed')], default='Active', max_length=300),\n        ),",
+        "detail": "order.migrations.0003_alter_order_order_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "order.migrations.0004_alter_order_options",
+        "description": "order.migrations.0004_alter_order_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('order', '0003_alter_order_order_status'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='order',\n            options={'verbose_name': 'Order', 'verbose_name_plural': 'Orders'},\n        ),\n    ]",
+        "detail": "order.migrations.0004_alter_order_options",
+        "documentation": {}
+    },
+    {
+        "label": "OrderAdmin",
+        "kind": 6,
+        "importPath": "order.admin",
+        "description": "order.admin",
+        "peekOfCode": "class OrderAdmin(admin.ModelAdmin):\n    list_display=(\"order_id\",\"user_name\",\"email\",\"contact\",\"order_date\",\"service\",\"order_status\",\"order_details\")\n    list_display_links=(\"order_id\",\"user_name\",\"email\")\nadmin.site.register(Order,OrderAdmin)",
+        "detail": "order.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OrderConfig",
+        "kind": 6,
+        "importPath": "order.apps",
+        "description": "order.apps",
+        "peekOfCode": "class OrderConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'order'",
+        "detail": "order.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "order.models",
+        "description": "order.models",
+        "peekOfCode": "class Order(models.Model):\n    status_v=((\"Active\",\"Active\"),\n                (\"Delivered\",\"Delivered\"),\n                (\"In Revision\",\"In Revision\"),\n                (\"Cancelled\",\"Cancelled\"),\n                (\"Completed\",\"Completed\"),)\n    order_id=models.CharField(max_length=300,blank=True)\n    first_name=models.CharField(max_length=300)\n    last_name=models.CharField(max_length=300)\n    user_name=models.CharField(max_length=500)",
+        "detail": "order.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "order.urls",
+        "description": "order.urls",
+        "peekOfCode": "urlpatterns = [\n    path('',views.placeorder,name='placeorder'),\n    path('track order/',views.order_details,name='order_details'),\n    path('track order/<order_id>/',views.order_details_id,name='order_details_id'),\n    path('details/<order_id>/',views.details,name='details'),\n    path('delete/<order_id>/',views.delete,name='delete'),\n]",
+        "detail": "order.urls",
+        "documentation": {}
+    },
+    {
+        "label": "placeorder",
+        "kind": 2,
+        "importPath": "order.views",
+        "description": "order.views",
+        "peekOfCode": "def placeorder(request):\n    if request.method==\"POST\":\n        first_name_v=request.POST.get(\"first_name_v\")\n        last_name_v=request.POST.get(\"last_name_v\")\n        username=f\"{first_name_v} {last_name_v}\"\n        email_v=request.POST.get(\"email_v\")\n        contact_v=request.POST.get(\"contact_v\")\n        service_v=request.POST.get(\"service_v\")\n        order_details_v=request.POST.get(\"order_details_v\")\n        #print(first_name_v,last_name_v,email_v,contact_v,service_v,order_details_v,uuid.uuid4(),uuid.uuid4().hex[:7].upper())",
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "order_details",
+        "kind": 2,
+        "importPath": "order.views",
+        "description": "order.views",
+        "peekOfCode": "def order_details(request):\n    order_obj=None\n    if request.method==\"POST\":\n        search_type=request.POST.get(\"search_type\")\n        search_v=request.POST.get(\"search_v\")\n        #print(search_type,search_v)\n        if search_type=='EmailId':\n            order_obj=Order.objects.filter(email=search_v).order_by('-id')\n        if search_type=='ContactNo':\n            order_obj=Order.objects.filter(contact=search_v).order_by('-id')",
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "order_details_id",
+        "kind": 2,
+        "importPath": "order.views",
+        "description": "order.views",
+        "peekOfCode": "def order_details_id(request,order_id=None):\n    if order_id!=None:\n        order_obj=Order.objects.filter(order_id=order_id)\n        data={\n            'orders':order_obj,\n        }\n        return render(request,'pages/order_details.html',data)\n    else:\n        messages.error(request,\"There is some error. Please Try again\")\n        return redirect(\"placeorder\")",
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "details",
+        "kind": 2,
+        "importPath": "order.views",
+        "description": "order.views",
+        "peekOfCode": "def details(request,order_id=None):\n    order_obj=None\n    if order_id!=None:\n        # order_obj=Order.objects.get(order_id=order_id)\n        order_obj=get_object_or_404(Order,order_id=order_id)\n    data={\n        'orders':order_obj,\n    }\n    return render(request,'pages/order.html',data)\ndef delete(request,order_id=None):",
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "order.views",
+        "description": "order.views",
+        "peekOfCode": "def delete(request,order_id=None):\n    order_obj=None\n    if order_id!=None:\n        try:\n            order_obj=Order.objects.get(order_id=order_id)\n        except:\n            pass\n        order_obj.delete()\n        messages.success(request,\"Order has been deleted Successfully!. Now you can place new order.\")\n        return redirect(\"placeorder\")",
+        "detail": "order.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "users.migrations.0001_initial",
+        "description": "users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('last_login', models.DateTimeField(blank=True, null=True, verbose_name='last login')),",
+        "detail": "users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "users.migrations.0002_user_groups_user_is_superuser_user_user_permissions",
+        "description": "users.migrations.0002_user_groups_user_is_superuser_user_user_permissions",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n        ('users', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='user',\n            name='groups',\n            field=models.ManyToManyField(blank=True, help_text='The groups this user belongs to. A user will get all permissions granted to each of their groups.', related_name='user_set', related_query_name='user', to='auth.group', verbose_name='groups'),",
+        "detail": "users.migrations.0002_user_groups_user_is_superuser_user_user_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "User_Admin",
+        "kind": 6,
+        "importPath": "users.admin",
+        "description": "users.admin",
+        "peekOfCode": "class User_Admin(UserAdmin):\n    list_display=(\"username\",\"email\",\"contact_no\",\"created_date\",\"is_active\",\"is_staff\",\"is_admin\",\"is_superadmin\")\n    list_display_links=(\"username\",\"email\")\n    filter_horizontal=()\n    list_filter=()\n    fieldsets=()\nadmin.site.register(User,User_Admin)",
+        "detail": "users.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "users.apps",
+        "description": "users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class UserManager(BaseUserManager):\n    def create_user(self,email,username,contact_no,password=None):\n        if not email:\n            return ValueError('Email field is required')\n        if not username:\n            return ValueError('Username field is required')\n        user=self.model(\n            email=email,\n            username=username,\n            contact_no=contact_no",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class User(AbstractBaseUser,PermissionsMixin):\n    first_name=models.CharField(max_length=300,blank=True)\n    last_name=models.CharField(max_length=300,blank=True)\n    username=models.CharField(max_length=300)\n    email=models.CharField(max_length=500,unique=True)\n    contact_no=models.CharField(max_length=300,blank=True)\n    password=models.CharField(max_length=700)\n    created_date=models.DateTimeField(auto_now_add=True)\n    updated_date=models.DateTimeField(auto_now_add=True)\n    is_active=models.BooleanField(default=False)",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "webdesigns.migrations.0001_initial",
+        "description": "webdesigns.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Webdesigns',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('website_name', models.CharField(max_length=300)),",
+        "detail": "webdesigns.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "webdesigns.migrations.0002_alter_webdesigns_url",
+        "description": "webdesigns.migrations.0002_alter_webdesigns_url",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('webdesigns', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='webdesigns',\n            name='url',\n            field=models.URLField(max_length=600),\n        ),",
+        "detail": "webdesigns.migrations.0002_alter_webdesigns_url",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "webdesigns.migrations.0003_webdesigns_is_active",
+        "description": "webdesigns.migrations.0003_webdesigns_is_active",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('webdesigns', '0002_alter_webdesigns_url'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='webdesigns',\n            name='is_active',\n            field=models.BooleanField(default=True),\n        ),",
+        "detail": "webdesigns.migrations.0003_webdesigns_is_active",
+        "documentation": {}
+    },
+    {
+        "label": "WebdesignsAdmin",
+        "kind": 6,
+        "importPath": "webdesigns.admin",
+        "description": "webdesigns.admin",
+        "peekOfCode": "class WebdesignsAdmin(admin.ModelAdmin):\n    def Image(self,model):\n        return format_html('<img src=\"{}\" width=120 height=120>'.format(model.image.url))\n    list_display=(\"website_name\",\"url\",\"is_feature\",\"is_active\",\"added_date\",\"updated_date\",\"Image\")\n    list_editable=(\"is_feature\",\"is_active\")\n    list_per_page=20\nadmin.site.register(Webdesigns,WebdesignsAdmin)",
+        "detail": "webdesigns.admin",
+        "documentation": {}
+    },
+    {
+        "label": "WebdesignsConfig",
+        "kind": 6,
+        "importPath": "webdesigns.apps",
+        "description": "webdesigns.apps",
+        "peekOfCode": "class WebdesignsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'webdesigns'",
+        "detail": "webdesigns.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Webdesigns",
+        "kind": 6,
+        "importPath": "webdesigns.models",
+        "description": "webdesigns.models",
+        "peekOfCode": "class Webdesigns(models.Model):\n    website_name=models.CharField(max_length=300)\n    url=models.URLField(max_length=600)\n    is_feature=models.BooleanField(default=True)\n    is_active=models.BooleanField(default=True)\n    added_date=models.DateTimeField(auto_now_add=True)\n    updated_date=models.DateTimeField(auto_now=True)\n    image=models.ImageField(upload_to=\"Images/WebsiteDesign\")\n    class Meta:\n        verbose_name=\"Website Design\"",
+        "detail": "webdesigns.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "webdesigns.urls",
+        "description": "webdesigns.urls",
+        "peekOfCode": "urlpatterns = [\n    path('',views.webdesigns,name='webdesigns'),\n]",
+        "detail": "webdesigns.urls",
+        "documentation": {}
+    },
+    {
+        "label": "webdesigns",
+        "kind": 2,
+        "importPath": "webdesigns.views",
+        "description": "webdesigns.views",
+        "peekOfCode": "def webdesigns(request):\n    webdesigns_obj=Webdesigns.objects.filter(is_active=True)\n    paginator=Paginator(webdesigns_obj,9)\n    page=request.GET.get('page')\n    webdesigns_obj_final=paginator.get_page(page)\n    if page==None:\n        page=1\n    if page==None:\n        page=1\n    total_pages=int(paginator.num_pages)",
+        "detail": "webdesigns.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MDZWeb.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

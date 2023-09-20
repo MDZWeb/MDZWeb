@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --white_1:#FFFFFF;
+    --bg_2:#FBFAFF;
+    --bg_3:#F8F6FF;
+    --black-1:#262626;
+    --blue_1:#673EE6;
+    --blue_2:#6940E7;
+    --blue_3:#977EE2;
+    --yellow_1:#FFC050;
+    --black_1:#5B5B5B;
+    --red_shade_1:#ff2020;
+    --transition-1: all .1s ease-in-out 0s;
+    --transition-2: all .2s ease-in-out 0s;
+    --transition-3: all .3s ease-in-out 0s;
+    --large_screen:80%;
+    --medium_screen:90%;
+    --small_screen:95%;
+}
+
+body{
+    background-color:var(--bg_2);
+    font-family: cabin,sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: var(--large_screen);
+    max-width: var(--large_screen);
+    margin: auto;
+}
+
+h1{
+    font-size: 13rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color:var(--black-1);
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:var(--black-1);
+}
+
+.page_404_section{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.page_404_section .page_404_container{
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.page_404_section .page_404{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.page_404_section .page_404 h1{
+    letter-spacing: 1px;
+}
+
+.page_404_section .text-2{
+    max-width: 420px;
+    text-align: center;
+}
+
+
+.page_404_section .img_404_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+}
+
+.page_404_section .img_404{
+    max-width: 100px;
+    width: 100%;
+    /* height: 150px; */
+    position: absolute;
+    top: 0px;
+    right: -100px;
+    animation: img404ani 1s ease-in-out 0s infinite;
+}
+
+@keyframes img404ani {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+.page_404_section .img_404 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--yellow_1);
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    color: var(--white_1);
+    box-shadow: 3px 3px 10px rgba(181, 174, 208, .8);
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: var(--transition-2);
+    color: var(--white_1);
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    transform: scale(1.04);
+}
+
+/*  -------------------------------Media Query 1020px------------------------------- */
+
+@media only screen and (max-width:1020px) {
+    h1 {
+        font-size: 8rem;
+        font-weight: 800;
+    }
+    .page_404_section .img_404 {
+        max-width: 80px;
+    }
+
+    .page_404_section .img_404 {
+        right: -75px;
+        
+    }
+
+    .btn {
+        width: 170px;
+        height: 46px;
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+    .page_404_section .text-2 {
+        max-width: 293px;
+    }
+}
+
+
+/*  -------------------------------Media Query 760px------------------------------- */
+
+@media only screen and (max-width:760px) {
+    h1 {
+        font-size: 5rem;
+        font-weight: 700;
+    }
+    .page_404_section .page_404 h1 {
+        letter-spacing: 0px;
+    }
+    .page_404_section .img_404 {
+        max-width: 50px;
+    }
+
+    .page_404_section .img_404 {
+        right: -50px;
+    }
+    h3 {
+        font-size: .85rem;
+    }
+
+    .btn {
+        width: 140px;
+        height: 40px;
+        font-size: .85rem;
+        margin-top: 1rem;
+    }
+
+    .page_404_section .text-2 {
+        max-width: 256px;
+    }
+    
+}

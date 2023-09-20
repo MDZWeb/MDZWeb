@@ -1,0 +1,53 @@
+.order_page_table_section{
+    margin: 0;
+    padding: 9rem 0rem 0rem 0rem;
+}
+
+td{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--black_1);
+}
+
+.order_table_section .order_table_container {
+    padding: 0rem 0rem;
+}
+
+.order_table_section th {
+    border-top: 0px;
+}
+
+.order_table_container:nth-child(2){
+    margin-top: 2rem;
+}
+
+.delete_btn{
+    background-color: var(--red_shade_1);
+    margin-top: 1rem;
+    max-width: 150px;
+}
+
+
+@media only screen and (max-width:1200px) {
+    .order_page_table_section {
+        margin: 0;
+        padding: 7rem 0rem 0rem 0rem;
+    }
+    td{
+        font-size: .8rem;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    td{
+        font-size: .8rem;
+        font-weight: 400;
+    }
+
+    .delete_btn {
+        background-color: var(--red_shade_1);
+        margin-top: 1rem;
+        max-width: 120px;
+    }
+}

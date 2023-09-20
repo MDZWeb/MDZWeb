@@ -1,0 +1,201 @@
+.place_order_section{
+    width: 100%;
+}
+
+.place_order_section .place_order_sec{
+    padding: 10rem 0rem 3rem 0rem;
+}
+
+.place_order_section .place_order_container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0rem;
+    background-color: var(--blue_3);
+}
+
+
+.place_order_section .left{
+    background-color: var(--blue_2);
+    padding: 3rem 1rem;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.place_order_section .left_img{
+    max-width: 519px;
+    width: 100%;
+    position: relative;
+    animation:place_order_ani .5s ease-in-out 0s forwards;
+    transform: scale(0);
+    transform-origin: top center;
+}
+
+@keyframes place_order_ani{
+    100%{
+        transform: scale(1) ;
+    }
+}
+
+.place_order_section .left_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.place_order_section h4{
+    color: var(--white_1);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.place_order_section .contact_details{
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.place_order_section .contact_details li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+    transition: var(--transition-3);
+}
+
+.place_order_section .contact_details li:hover {
+    transform: scale(1.05);
+}
+
+.place_order_section .contact_details p{
+    color: var(--white_1);
+}
+
+.place_order_section .contact_details i{
+    transform: scale(1.2);
+    color: var(--white_1);
+}
+
+.place_order_section form{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.place_order_section form .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.place_order_section .sel_service_detail{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.place_order_section .message_section{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.place_order_section .right label{
+    color: var(--white_1);
+}
+
+.place_order_section .right input , .place_order_section .right select{
+    width: 100%;
+    height: 1.8rem;
+    padding: 0rem .5rem;
+    border-radius: 2px;
+}
+
+.place_order_section .right textarea{
+    width: 100%;
+    padding: .5rem .5rem;
+    border-radius: 2px;
+}
+
+.place_order_section .right button{
+    background-color: var(--yellow_1);
+    color: var(--white_1);
+    width: 100%;
+    height: 2.2rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size:1rem ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid var(--yellow_1);
+    transition: var(--transition-3);
+
+}
+
+.place_order_section .right button:hover{
+    background-color: transparent;
+    color: var(--yellow_1);
+}
+
+@media only screen and (max-width:1200px) {
+    input{
+        font-size: .8rem ;
+        font-weight: 400;
+        color: var(--black_2);
+        border: 0;
+    }
+    
+    textarea{
+        font-size: .8rem ;
+        font-weight: 400;
+        color: var(--black_2);
+        border: 0;
+    }
+
+    option,select{
+        font-size: .8rem ;
+        font-weight: 400;
+        color: var(--black_2);
+        border: 0;
+    }
+
+
+    .place_order_section .place_order_container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0rem;
+        background-color: var(--blue_3);
+    }
+
+    .place_order_section .place_order_sec {
+        padding: 6rem 0rem 0rem 0rem;
+    }
+    
+}
+
+@media only screen and (max-width:1024px) {
+    .place_order_section .place_order_container {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        background-color: var(--blue_3);
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .place_order_section .right button{
+        font-size:.9rem ;
+    }
+}

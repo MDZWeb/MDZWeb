@@ -1,0 +1,256 @@
+/* -----------------------Graphic Designs Section----------------------- */
+
+.graphic_designs_sec{
+    width: 100%;
+}
+
+.graphic_designs_sec h2{
+    padding: 10rem 0rem 5rem 0rem;
+    text-align: center;
+    color: var(--blue_1);
+}
+
+
+.graphic_designs_sec h2 span{
+    color: var(--yellow_1);
+}
+
+.graphic_designs_sec .graphic_designs_container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.graphic_designs_sec .design_img{
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px 5px rgba(181, 174, 208, .8);
+    transition: var(--transition-2);
+    position: relative;
+}
+
+.graphic_designs_sec .design_img:hover{
+    transform: scale(1.05);
+}
+
+.graphic_designs_sec .design_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.graphic_designs_sec .design_img span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--white_1);
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* transform: scale(0); */
+    transition: var(--transition-3);
+    opacity: 0;
+}
+
+.graphic_designs_sec .design_img:hover span{
+    /* transform: scale(1); */
+    opacity: 1;
+}
+
+.graphic_designs_sec .design_img i{
+    font-size: 1.5rem;
+    border: 2px solid var(--white_1);
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    transition: var(--transition-3);
+}
+
+.graphic_designs_sec .design_img i:hover{
+    transform: scale(1.1);
+}
+
+/* ----------------------- Image Pop Up Section----------------------- */
+
+.pop_up_section{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 888;
+    top: 0;
+    left: 0;
+    display: none;
+    place-items: center;
+}
+
+.pop_up_section .pop_up_container{
+    max-width: 700px;
+    padding-top: 3rem;
+}
+
+.pop_up_section .pop_up_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pop_up_close{
+    position: absolute;
+    top: 1.7rem;
+    right: 2rem;
+    background-color: transparent;
+    color: var(--white_1);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.pop_up_close:hover{
+    color: var(--red_shade_1);
+}
+
+
+
+
+/* -------------------------Section Pagination------------------------- */
+
+.pagination_section{
+    margin: 4rem 0rem;
+    width: 100%;
+} 
+.pagination_section .pagination_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pagination_section .pagination_container .page{
+    display: inline-block;
+    color: var(--blue_1);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: var(--transition-2);
+}
+
+.pagination_section .pagination_container .page.active{
+    color: red;
+}
+
+.pagination_section .pagination_container .page:hover{
+    transform: scale(1.2);
+}
+
+
+.pagination_section a{
+    color: var(--blue_1);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.pagination_section .ellipsis{
+    font-size: 1.6rem;
+    color: var(--blue_1);
+}
+
+
+
+.pagination_section .left , .pagination_section .right{
+    display: inline-block;
+    font-size: 2.3rem;
+    cursor: pointer;
+    transition: var(--transition-2);
+    color: var(--blue_1);
+}
+
+.pagination_section .left:hover , .pagination_section .right:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+/*  -------------------------------Media Query 1600px------------------------------- */
+
+@media only screen and (max-width:1600px){
+    .pop_up_section .pop_up_container{
+         max-width: 550px;
+         padding-top: 0rem;
+     }
+}
+
+/*  -------------------------------Media Query 1500px------------------------------- */
+
+
+
+
+@media only screen and (max-width:1500px){
+    .pop_up_section .pop_up_container{
+         max-width: 500px;
+         padding-top: 0rem;
+     }
+     
+ 
+}
+ 
+
+
+@media only screen and (max-width:1020px) {
+
+    .graphic_designs_sec h2 {
+        padding: 7rem 0rem 3rem 0rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width:706px) {
+
+    .graphic_designs_sec .graphic_designs_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(205px,auto));
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .pagination_section .pagination_container {
+        gap: 1.7rem;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .graphic_designs_sec .design_img{
+        display: block;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    /* -------------------------------Pop Up design-- */
+    .pop_up_close {
+        top: 1rem;
+        right: .5rem;
+    }
+
+
+    .pop_up_section .pop_up_container {
+        max-width: 360px;
+        padding-top: 0rem;
+    }
+
+}

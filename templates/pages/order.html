@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- -----------------------Order Table----------------------- -->
+
+    <section class="order_table_section order_page_table_section">
+        <div class="order_table_container container">
+            <div class="order_table_scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email ID</th>
+                            <th>Contact No</th>
+                            <th>Service Type</th>
+                            <th>Order Date</th>
+                            <th>Order Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        
+                        <tr>
+                            <td>{{orders.first_name}}</td>
+                            <td>{{orders.last_name}}</td>
+                            <td>{{orders.email}}</td>
+                            <td>{{orders.contact}}</td>
+                            <td>{{orders.service}}</td>
+                            <td>{{orders.order_date}}</td>
+                            <td>{{orders.order_status}}</td>
+                        </tr>
+                                 
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="order_table_container container">
+            <div class="order_table_scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order Details</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>{{orders.order_details}}</td>
+                        </tr>             
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <a href="{% url "delete" orders.order_id %}" class="btn delete_btn container">Delete</a>
+
+
+    <!-- -----------------------WhatsApp Section----------------------- -->
+
+    {% include 'includes/whatsapp_contact.html' %}
+
+    <!-- -----------------------Footer----------------------- -->
+{% endblock  %}
